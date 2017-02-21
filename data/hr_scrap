@@ -1,0 +1,9 @@
+select * from employees;
+
+select * from jobs
+where min_salary between 8000 and 10000
+order by min_salary desc;
+
+select * from jobs;
+
+start c:\temp\buddy_schema.sql
